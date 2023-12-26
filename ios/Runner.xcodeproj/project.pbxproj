@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
-		1BC4D067611D8F28D63BA38B /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CC32188E1F14C2B4BE0668 /* Pods_Runner.framework */; };
-		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
+		20A011CE856670FD0BFFD433 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C27620FB4480AE3626072B /* Pods_Runner.framework */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
+		4F9FEA7B9DE84791E4BC5585 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57FA5425549AEDEA2587F796 /* GoogleService-Info.plist */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
-		8960940F70BCE905E59DDB7B /* Pods_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB99101F4F09BEE295E586B0 /* Pods_RunnerTests.framework */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+		A642EB6397EAD81591AE5098 /* Pods_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5CCAA7EFB53DD06363A14D1 /* Pods_RunnerTests.framework */; };
+		FA9068882B34B43E006C854E /* RunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9068872B34B43E006C854E /* RunnerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,24 +43,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0F7921B17885C43DCEE657E4 /* Pods-RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
-		16802E1E193A608C4A8065B2 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
-		17951DD3C5E1F654592A0591 /* Pods-Runner.debug-free.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug-free.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug-free.xcconfig"; sourceTree = "<group>"; };
-		230DA3DC842E84046538E599 /* Pods-RunnerTests.profile-free.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile-free.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile-free.xcconfig"; sourceTree = "<group>"; };
-		331C807B294A618700263BE5 /* RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerTests.swift; sourceTree = "<group>"; };
+		2EE0C5CE8513FC6C340729F4 /* Pods-Runner.debug-free.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug-free.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug-free.xcconfig"; sourceTree = "<group>"; };
 		331C8081294A63A400263BE5 /* RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
+		4797D7985CFD12A973D50537 /* Pods-RunnerTests.profile-free.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile-free.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile-free.xcconfig"; sourceTree = "<group>"; };
+		57FA5425549AEDEA2587F796 /* GoogleService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Runner/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		616997A8E755ED0FA576FA87 /* Pods-RunnerTests.debug-free.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug-free.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug-free.xcconfig"; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77802D40C6910F624A791110 /* Pods-RunnerTests.debug-free.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug-free.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug-free.xcconfig"; sourceTree = "<group>"; };
-		78256170FC9FA7D6DF56615F /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
-		88CC32188E1F14C2B4BE0668 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BB170AD25B6A2A8969A5718 /* Pods-Runner.profile-free.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile-free.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile-free.xcconfig"; sourceTree = "<group>"; };
-		8FF1CC0C0065E2CE8F7C9B4D /* Pods-RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
-		93B51B638467A1509E23331B /* Pods-Runner.release-free.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release-free.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release-free.xcconfig"; sourceTree = "<group>"; };
+		7DD04EC038316550AE476C73 /* Pods-Runner.release-free.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release-free.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release-free.xcconfig"; sourceTree = "<group>"; };
+		90C27620FB4480AE3626072B /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9740EEB21CF90195004384FC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Flutter/Debug.xcconfig; sourceTree = "<group>"; };
 		9740EEB31CF90195004384FC /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Generated.xcconfig; path = Flutter/Generated.xcconfig; sourceTree = "<group>"; };
 		97C146EE1CF9000F007C117D /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,10 +63,66 @@
 		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA4183730AFC999307C84F34 /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
-		BB99101F4F09BEE295E586B0 /* Pods_RunnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC0F66B78AB3828116310681 /* Pods-RunnerTests.release-free.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release-free.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release-free.xcconfig"; sourceTree = "<group>"; };
-		D8DE6B114EB55F4AAABED9B7 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		B8D2E9C597E2BF51EA9A8292 /* Pods-Runner.profile-free.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile-free.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile-free.xcconfig"; sourceTree = "<group>"; };
+		D5CCAA7EFB53DD06363A14D1 /* Pods_RunnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27B34EF26E0D51F8DD00149 /* Pods-RunnerTests.release-free.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release-free.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release-free.xcconfig"; sourceTree = "<group>"; };
+		FA1097822B34923C00754A71 /* libreadline.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libreadline.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libreadline.tbd; sourceTree = DEVELOPER_DIR; };
+		FA1097832B34923C00754A71 /* libpanel.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libpanel.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libpanel.tbd; sourceTree = DEVELOPER_DIR; };
+		FA1097842B34923C00754A71 /* libquit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libquit.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libquit.tbd; sourceTree = DEVELOPER_DIR; };
+		FA1097852B34923C00754A71 /* libpthread.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libpthread.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libpthread.tbd; sourceTree = DEVELOPER_DIR; };
+		FA1097862B34923C00754A71 /* libproc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libproc.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libproc.tbd; sourceTree = DEVELOPER_DIR; };
+		FA1097872B34923C00754A71 /* libRPAC.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libRPAC.tbd; path = usr/lib/libRPAC.tbd; sourceTree = SDKROOT; };
+		FA1097882B34923C00754A71 /* libReverseProxyDevice.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libReverseProxyDevice.tbd; path = usr/lib/libReverseProxyDevice.tbd; sourceTree = SDKROOT; };
+		FA1097892B34923C00754A71 /* libPN548_API.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libPN548_API.tbd; path = usr/lib/libPN548_API.tbd; sourceTree = SDKROOT; };
+		FA10978A2B34923C00754A71 /* libNFC_Comet.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libNFC_Comet.tbd; path = usr/lib/libNFC_Comet.tbd; sourceTree = SDKROOT; };
+		FA10978B2B34923C00754A71 /* libSESShared.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSESShared.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libSESShared.tbd; sourceTree = DEVELOPER_DIR; };
+		FA10978C2B34923C00754A71 /* libnfstorage.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libnfstorage.tbd; path = usr/lib/libnfstorage.tbd; sourceTree = SDKROOT; };
+		FA10978D2B34923C00754A71 /* libpoll.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libpoll.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libpoll.tbd; sourceTree = DEVELOPER_DIR; };
+		FA10978E2B34923C00754A71 /* libSLAMDynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSLAMDynamic.tbd; path = usr/lib/libSLAMDynamic.tbd; sourceTree = SDKROOT; };
+		FA10978F2B34923C00754A71 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libresolv.tbd; sourceTree = DEVELOPER_DIR; };
+		FA1097902B34923C00754A71 /* libperfcheck.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libperfcheck.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libperfcheck.tbd; sourceTree = DEVELOPER_DIR; };
+		FA1097912B34923C00754A71 /* libsandbox.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsandbox.1.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libsandbox.1.tbd; sourceTree = DEVELOPER_DIR; };
+		FA1097922B34923C00754A71 /* libRoseBooter.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libRoseBooter.tbd; path = usr/lib/libRoseBooter.tbd; sourceTree = SDKROOT; };
+		FA1097932B34923C00754A71 /* libPCITransport.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libPCITransport.tbd; path = usr/lib/libPCITransport.tbd; sourceTree = SDKROOT; };
+		FA1097942B34923C00754A71 /* librpcsvc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = librpcsvc.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/librpcsvc.tbd; sourceTree = DEVELOPER_DIR; };
+		FA1097952B34923C00754A71 /* libremovefile.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libremovefile.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/system/libremovefile.tbd; sourceTree = DEVELOPER_DIR; };
+		FA1097962B34923C00754A71 /* libSMC.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSMC.tbd; path = usr/lib/libSMC.tbd; sourceTree = SDKROOT; };
+		FA1097972B34923C00754A71 /* libobjc.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libobjc.A.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libobjc.A.tbd; sourceTree = DEVELOPER_DIR; };
+		FA1097982B34923C00754A71 /* libsbuf.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsbuf.tbd; path = usr/lib/libsbuf.tbd; sourceTree = SDKROOT; };
+		FA1097992B34923C00754A71 /* libnetworkextension.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libnetworkextension.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libnetworkextension.tbd; sourceTree = DEVELOPER_DIR; };
+		FA10979A2B34923C00754A71 /* libpam.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libpam.2.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libpam.2.tbd; sourceTree = DEVELOPER_DIR; };
+		FA10979B2B34923C00754A71 /* libquic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libquic.tbd; path = usr/lib/libquic.tbd; sourceTree = SDKROOT; };
+		FA10979C2B34923C00754A71 /* libnwswifttls.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libnwswifttls.tbd; path = usr/lib/libnwswifttls.tbd; sourceTree = SDKROOT; };
+		FA10979D2B34923C00754A71 /* libpam.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libpam.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libpam.tbd; sourceTree = DEVELOPER_DIR; };
+		FA10979E2B34923C00754A71 /* libomadm.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libomadm.tbd; path = usr/lib/libomadm.tbd; sourceTree = SDKROOT; };
+		FA10979F2B34923C00754A71 /* libQMIParserDynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libQMIParserDynamic.tbd; path = usr/lib/libQMIParserDynamic.tbd; sourceTree = SDKROOT; };
+		FA1097A02B34923C00754A71 /* libpanel.5.4.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libpanel.5.4.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libpanel.5.4.tbd; sourceTree = DEVELOPER_DIR; };
+		FA1097A12B34923C00754A71 /* libSCLM.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSCLM.tbd; path = usr/lib/libSCLM.tbd; sourceTree = SDKROOT; };
+		FA1097A22B34923C00754A71 /* libRemoteTelephonyTransport.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libRemoteTelephonyTransport.tbd; path = usr/lib/libRemoteTelephonyTransport.tbd; sourceTree = SDKROOT; };
+		FA1097A32B34923C00754A71 /* libsp.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsp.tbd; path = usr/lib/libsp.tbd; sourceTree = SDKROOT; };
+		FA1097A42B34923C00754A71 /* libParallelCompression.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libParallelCompression.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libParallelCompression.tbd; sourceTree = DEVELOPER_DIR; };
+		FA1097A52B34923C00754A71 /* librealtime_safety.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = librealtime_safety.tbd; path = usr/lib/librealtime_safety.tbd; sourceTree = SDKROOT; };
+		FA1097A62B34923C00754A71 /* libskit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libskit.tbd; path = usr/lib/libskit.tbd; sourceTree = SDKROOT; };
+		FA1097A72B34923C00754A71 /* libpcap.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libpcap.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libpcap.tbd; sourceTree = DEVELOPER_DIR; };
+		FA1097A82B34923C00754A71 /* libolaf.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libolaf.tbd; path = usr/lib/libolaf.tbd; sourceTree = SDKROOT; };
+		FA1097A92B34923C00754A71 /* libPPM.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libPPM.tbd; path = usr/lib/libPPM.tbd; sourceTree = SDKROOT; };
+		FA1097AA2B34923C00754A71 /* libpcap.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libpcap.A.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libpcap.A.tbd; sourceTree = DEVELOPER_DIR; };
+		FA1097AB2B34923C00754A71 /* libnfrestore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libnfrestore.tbd; path = usr/lib/libnfrestore.tbd; sourceTree = SDKROOT; };
+		FA1097AC2B34923C00754A71 /* libnfshared.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libnfshared.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libnfshared.tbd; sourceTree = DEVELOPER_DIR; };
+		FA1097AD2B34923C00754A71 /* libSoftwareUpdateSSO.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSoftwareUpdateSSO.tbd; path = usr/lib/libSoftwareUpdateSSO.tbd; sourceTree = SDKROOT; };
+		FA1097AE2B34923C00754A71 /* libNFC_HAL.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libNFC_HAL.tbd; path = usr/lib/libNFC_HAL.tbd; sourceTree = SDKROOT; };
+		FA1097AF2B34923C00754A71 /* libsandbox.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsandbox.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libsandbox.tbd; sourceTree = DEVELOPER_DIR; };
+		FA1097B02B34923C00754A71 /* libquarantine.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libquarantine.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/system/libquarantine.tbd; sourceTree = DEVELOPER_DIR; };
+		FA1097B12B34923C00754A71 /* libprotobuf-lite.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libprotobuf-lite.tbd"; path = "usr/lib/libprotobuf-lite.tbd"; sourceTree = SDKROOT; };
+		FA1097B22B34923C00754A71 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libresolv.9.tbd; sourceTree = DEVELOPER_DIR; };
+		FA1097B32B34923C00754A71 /* libobjc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libobjc.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libobjc.tbd; sourceTree = DEVELOPER_DIR; };
+		FA1097B42B34923C00754A71 /* libpartition2_dynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libpartition2_dynamic.tbd; path = usr/lib/libpartition2_dynamic.tbd; sourceTree = SDKROOT; };
+		FA1097B52B34923C00754A71 /* libPPMDataModel.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libPPMDataModel.tbd; path = usr/lib/libPPMDataModel.tbd; sourceTree = SDKROOT; };
+		FA1097B62B34923C00754A71 /* libprotobuf.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libprotobuf.tbd; path = usr/lib/libprotobuf.tbd; sourceTree = SDKROOT; };
+		FA1097B72B34923C00754A71 /* libobjc-trampolines.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libobjc-trampolines.tbd"; path = "Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libobjc-trampolines.tbd"; sourceTree = DEVELOPER_DIR; };
+		FA1097B82B34923C00754A71 /* libprequelite.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libprequelite.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libprequelite.tbd; sourceTree = DEVELOPER_DIR; };
+		FA481E772B349A2F003A9A32 /* integration_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = integration_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9068872B34B43E006C854E /* RunnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunnerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BC4D067611D8F28D63BA38B /* Pods_Runner.framework in Frameworks */,
+				20A011CE856670FD0BFFD433 /* Pods_Runner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8960940F70BCE905E59DDB7B /* Pods_RunnerTests.framework in Frameworks */,
+				A642EB6397EAD81591AE5098 /* Pods_RunnerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,8 +148,64 @@
 		2C8AF85C3E0D5385C7E09A0D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				88CC32188E1F14C2B4BE0668 /* Pods_Runner.framework */,
-				BB99101F4F09BEE295E586B0 /* Pods_RunnerTests.framework */,
+				FA481E772B349A2F003A9A32 /* integration_test.framework */,
+				FA1097992B34923C00754A71 /* libnetworkextension.tbd */,
+				FA10978A2B34923C00754A71 /* libNFC_Comet.tbd */,
+				FA1097AE2B34923C00754A71 /* libNFC_HAL.tbd */,
+				FA1097AB2B34923C00754A71 /* libnfrestore.tbd */,
+				FA1097AC2B34923C00754A71 /* libnfshared.tbd */,
+				FA10978C2B34923C00754A71 /* libnfstorage.tbd */,
+				FA10979C2B34923C00754A71 /* libnwswifttls.tbd */,
+				FA1097B72B34923C00754A71 /* libobjc-trampolines.tbd */,
+				FA1097972B34923C00754A71 /* libobjc.A.tbd */,
+				FA1097B32B34923C00754A71 /* libobjc.tbd */,
+				FA1097A82B34923C00754A71 /* libolaf.tbd */,
+				FA10979E2B34923C00754A71 /* libomadm.tbd */,
+				FA10979A2B34923C00754A71 /* libpam.2.tbd */,
+				FA10979D2B34923C00754A71 /* libpam.tbd */,
+				FA1097A02B34923C00754A71 /* libpanel.5.4.tbd */,
+				FA1097832B34923C00754A71 /* libpanel.tbd */,
+				FA1097A42B34923C00754A71 /* libParallelCompression.tbd */,
+				FA1097B42B34923C00754A71 /* libpartition2_dynamic.tbd */,
+				FA1097AA2B34923C00754A71 /* libpcap.A.tbd */,
+				FA1097A72B34923C00754A71 /* libpcap.tbd */,
+				FA1097932B34923C00754A71 /* libPCITransport.tbd */,
+				FA1097902B34923C00754A71 /* libperfcheck.tbd */,
+				FA1097892B34923C00754A71 /* libPN548_API.tbd */,
+				FA10978D2B34923C00754A71 /* libpoll.tbd */,
+				FA1097A92B34923C00754A71 /* libPPM.tbd */,
+				FA1097B52B34923C00754A71 /* libPPMDataModel.tbd */,
+				FA1097B82B34923C00754A71 /* libprequelite.tbd */,
+				FA1097862B34923C00754A71 /* libproc.tbd */,
+				FA1097B12B34923C00754A71 /* libprotobuf-lite.tbd */,
+				FA1097B62B34923C00754A71 /* libprotobuf.tbd */,
+				FA1097852B34923C00754A71 /* libpthread.tbd */,
+				FA10979F2B34923C00754A71 /* libQMIParserDynamic.tbd */,
+				FA1097B02B34923C00754A71 /* libquarantine.tbd */,
+				FA10979B2B34923C00754A71 /* libquic.tbd */,
+				FA1097842B34923C00754A71 /* libquit.tbd */,
+				FA1097822B34923C00754A71 /* libreadline.tbd */,
+				FA1097A52B34923C00754A71 /* librealtime_safety.tbd */,
+				FA1097A22B34923C00754A71 /* libRemoteTelephonyTransport.tbd */,
+				FA1097952B34923C00754A71 /* libremovefile.tbd */,
+				FA1097B22B34923C00754A71 /* libresolv.9.tbd */,
+				FA10978F2B34923C00754A71 /* libresolv.tbd */,
+				FA1097882B34923C00754A71 /* libReverseProxyDevice.tbd */,
+				FA1097922B34923C00754A71 /* libRoseBooter.tbd */,
+				FA1097872B34923C00754A71 /* libRPAC.tbd */,
+				FA1097942B34923C00754A71 /* librpcsvc.tbd */,
+				FA1097912B34923C00754A71 /* libsandbox.1.tbd */,
+				FA1097AF2B34923C00754A71 /* libsandbox.tbd */,
+				FA1097982B34923C00754A71 /* libsbuf.tbd */,
+				FA1097A12B34923C00754A71 /* libSCLM.tbd */,
+				FA10978B2B34923C00754A71 /* libSESShared.tbd */,
+				FA1097A62B34923C00754A71 /* libskit.tbd */,
+				FA10978E2B34923C00754A71 /* libSLAMDynamic.tbd */,
+				FA1097962B34923C00754A71 /* libSMC.tbd */,
+				FA1097AD2B34923C00754A71 /* libSoftwareUpdateSSO.tbd */,
+				FA1097A32B34923C00754A71 /* libsp.tbd */,
+				90C27620FB4480AE3626072B /* Pods_Runner.framework */,
+				D5CCAA7EFB53DD06363A14D1 /* Pods_RunnerTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -105,7 +213,7 @@
 		331C8082294A63A400263BE5 /* RunnerTests */ = {
 			isa = PBXGroup;
 			children = (
-				331C807B294A618700263BE5 /* RunnerTests.swift */,
+				FA9068872B34B43E006C854E /* RunnerTests.m */,
 			);
 			path = RunnerTests;
 			sourceTree = "<group>";
@@ -130,6 +238,7 @@
 				331C8082294A63A400263BE5 /* RunnerTests */,
 				B3F5713C79F7490B57C8251C /* Pods */,
 				2C8AF85C3E0D5385C7E09A0D /* Frameworks */,
+				57FA5425549AEDEA2587F796 /* GoogleService-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,18 +269,12 @@
 		B3F5713C79F7490B57C8251C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D8DE6B114EB55F4AAABED9B7 /* Pods-Runner.debug.xcconfig */,
-				78256170FC9FA7D6DF56615F /* Pods-Runner.release.xcconfig */,
-				16802E1E193A608C4A8065B2 /* Pods-Runner.profile.xcconfig */,
-				0F7921B17885C43DCEE657E4 /* Pods-RunnerTests.debug.xcconfig */,
-				8FF1CC0C0065E2CE8F7C9B4D /* Pods-RunnerTests.release.xcconfig */,
-				BA4183730AFC999307C84F34 /* Pods-RunnerTests.profile.xcconfig */,
-				17951DD3C5E1F654592A0591 /* Pods-Runner.debug-free.xcconfig */,
-				93B51B638467A1509E23331B /* Pods-Runner.release-free.xcconfig */,
-				8BB170AD25B6A2A8969A5718 /* Pods-Runner.profile-free.xcconfig */,
-				77802D40C6910F624A791110 /* Pods-RunnerTests.debug-free.xcconfig */,
-				BC0F66B78AB3828116310681 /* Pods-RunnerTests.release-free.xcconfig */,
-				230DA3DC842E84046538E599 /* Pods-RunnerTests.profile-free.xcconfig */,
+				2EE0C5CE8513FC6C340729F4 /* Pods-Runner.debug-free.xcconfig */,
+				7DD04EC038316550AE476C73 /* Pods-Runner.release-free.xcconfig */,
+				B8D2E9C597E2BF51EA9A8292 /* Pods-Runner.profile-free.xcconfig */,
+				616997A8E755ED0FA576FA87 /* Pods-RunnerTests.debug-free.xcconfig */,
+				E27B34EF26E0D51F8DD00149 /* Pods-RunnerTests.release-free.xcconfig */,
+				4797D7985CFD12A973D50537 /* Pods-RunnerTests.profile-free.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -183,7 +286,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 331C8087294A63A400263BE5 /* Build configuration list for PBXNativeTarget "RunnerTests" */;
 			buildPhases = (
-				12D529A0775B6575AAE58512 /* [CP] Check Pods Manifest.lock */,
+				0A18F1E01B259C406878FDDD /* [CP] Check Pods Manifest.lock */,
 				331C807D294A63A400263BE5 /* Sources */,
 				331C807F294A63A400263BE5 /* Resources */,
 				E3A0E24ACF2624E2F6243965 /* Frameworks */,
@@ -202,20 +305,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "Runner" */;
 			buildPhases = (
-				D9AFDBF6C0C3010C9C9F7437 /* [CP] Check Pods Manifest.lock */,
+				8C4BF2EA944E2CEE0E7BA13B /* [CP] Check Pods Manifest.lock */,
 				9740EEB61CF901F6004384FC /* Run Script */,
 				97C146EA1CF9000F007C117D /* Sources */,
 				97C146EB1CF9000F007C117D /* Frameworks */,
 				97C146EC1CF9000F007C117D /* Resources */,
 				9705A1C41CF9048500538489 /* Embed Frameworks */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
-				6C438CFBA567A2D7A4843A46 /* [CP] Embed Pods Frameworks */,
+				2B37A433647EBCA5C8E3DC59 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Runner;
+			packageProductDependencies = (
+			);
 			productName = Runner;
 			productReference = 97C146EE1CF9000F007C117D /* Runner.app */;
 			productType = "com.apple.product-type.application";
@@ -249,6 +354,8 @@
 				Base,
 			);
 			mainGroup = 97C146E51CF9000F007C117D;
+			packageReferences = (
+			);
 			productRefGroup = 97C146EF1CF9000F007C117D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -275,13 +382,14 @@
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
+				4F9FEA7B9DE84791E4BC5585 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		12D529A0775B6575AAE58512 /* [CP] Check Pods Manifest.lock */ = {
+		0A18F1E01B259C406878FDDD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -303,23 +411,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3B06AD1E1E4923F5004D2608 /* Thin Binary */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}",
-			);
-			name = "Thin Binary";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin";
-		};
-		6C438CFBA567A2D7A4843A46 /* [CP] Embed Pods Frameworks */ = {
+		2B37A433647EBCA5C8E3DC59 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -336,22 +428,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9740EEB61CF901F6004384FC /* Run Script */ = {
+		3B06AD1E1E4923F5004D2608 /* Thin Binary */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}",
 			);
-			name = "Run Script";
+			name = "Thin Binary";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build";
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin";
 		};
-		D9AFDBF6C0C3010C9C9F7437 /* [CP] Check Pods Manifest.lock */ = {
+		8C4BF2EA944E2CEE0E7BA13B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -373,6 +466,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9740EEB61CF901F6004384FC /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -380,7 +488,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */,
+				FA9068882B34B43E006C854E /* RunnerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +578,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "Debug Free";
@@ -485,16 +593,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = 6VMTQXJ2V3;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z572K4A982;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.testApp.free;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.testApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Wild Card Test";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -504,15 +617,19 @@
 		};
 		FADA063E2B334B5800562C39 /* Debug-free */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77802D40C6910F624A791110 /* Pods-RunnerTests.debug-free.xcconfig */;
+			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z572K4A982;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.testApp.RunnerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Wild Card Test";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -561,7 +678,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "Release Free";
 				SDKROOT = iphoneos;
@@ -579,16 +696,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = 6VMTQXJ2V3;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z572K4A982;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.testApp.free;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.testApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Wild Card Test";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -597,15 +719,19 @@
 		};
 		FADA06412B334B6100562C39 /* Release-free */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC0F66B78AB3828116310681 /* Pods-RunnerTests.release-free.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z572K4A982;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.testApp.RunnerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Wild Card Test";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
 			};
@@ -652,7 +778,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "Profile Free";
 				SDKROOT = iphoneos;
@@ -668,16 +794,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = 6VMTQXJ2V3;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z572K4A982;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.testApp.free;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.testApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Wild Card Test";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -686,15 +817,19 @@
 		};
 		FADA06442B334B6800562C39 /* Profile-free */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 230DA3DC842E84046538E599 /* Pods-RunnerTests.profile-free.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z572K4A982;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.testApp.RunnerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Wild Card Test";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
 			};
