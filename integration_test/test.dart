@@ -9,6 +9,8 @@ void main() {
     testWidgets('tap on the floating action button, verify counter',
         (tester) async {
       await tester.pumpWidget(const MyApp());
+      // Adding this sleep here to allow test to run on Test Labs a little longer
+      await Future.delayed(Duration(seconds: 5));
       expect(find.text("Flutter Demo Home Page"), findsOneWidget);
     });
   });
