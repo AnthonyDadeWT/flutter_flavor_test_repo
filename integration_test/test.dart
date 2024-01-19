@@ -5,7 +5,7 @@ import 'package:test_app/main.dart';
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
-  group('end-to-end test', () {
+  group('end-to-end test1', () {
     testWidgets('tap on the floating action button, verify counter',
         (tester) async {
       await tester.pumpWidget(const MyApp());
