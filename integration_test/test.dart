@@ -10,7 +10,16 @@ void main() {
         (tester) async {
       await tester.pumpWidget(const MyApp());
       // Adding this sleep here to allow test to run on Test Labs a little longer
-      await Future.delayed(Duration(seconds: 5));
+      await Future.delayed(Duration(seconds: 3));
+      expect(find.text("Flutter Demo Home Page"), findsOneWidget);
+    });
+  });
+  group('end-to-end test2', () {
+    testWidgets('tap on the floating action button, verify counter',
+        (tester) async {
+      await tester.pumpWidget(const MyApp());
+      // Adding this sleep here to allow test to run on Test Labs a little longer
+      await Future.delayed(Duration(seconds: 3));
       expect(find.text("Flutter Demo Home Page"), findsOneWidget);
     });
   });
