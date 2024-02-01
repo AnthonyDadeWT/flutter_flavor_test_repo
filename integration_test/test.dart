@@ -25,7 +25,7 @@ void main() {
         (tester) async {
       await tester.pumpWidget(const MyApp());
       // Adding this sleep here to allow test to run on Test Labs a little longer
-      await Future.delayed(const Duration(hours: 2));
+      await Future.delayed(const Duration(minutes: 45));
       expect(find.text("Flutter Demo Home Page"), findsOneWidget);
       Finder button = find.byKey(const Key('incrementButton'));
       await tester.tap(button);
