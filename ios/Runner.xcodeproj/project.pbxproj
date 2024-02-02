@@ -600,7 +600,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.testApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.testApp.free;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Wild Card Test";
@@ -622,7 +622,7 @@
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z572K4A982;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.testApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.testApp.free;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Wild Card Test";
@@ -703,7 +703,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.testApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.testApp.free;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Wild Card Test";
@@ -724,7 +724,7 @@
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z572K4A982;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.testApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.testApp.free;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Wild Card Test";
@@ -801,7 +801,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.testApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.testApp.free;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Wild Card Test";
@@ -822,7 +822,7 @@
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z572K4A982;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.testApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.testApp.free;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Wild Card Test";
