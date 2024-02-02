@@ -9,7 +9,7 @@ void main() {
     testWidgets('test file 2', (tester) async {
       await tester.pumpWidget(const MyApp());
       // Adding this sleep here to allow test to run on Test Labs a little longer
-      await Future.delayed(Duration(minutes: 5));
+      await Future.delayed(Duration(seconds: 3));
       expect(find.text("Flutter Demo Home Page"), findsOneWidget);
     });
   });

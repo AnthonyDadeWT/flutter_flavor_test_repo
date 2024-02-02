@@ -7,59 +7,63 @@ void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
   group('end-to-end test1', () {
-    testWidgets('5 min test', (tester) async {
+    testWidgets('long 500 tap test 1', (tester) async {
       await tester.pumpWidget(const MyApp());
       // Adding this sleep here to allow test to run on Test Labs a little longer
-      await Future.delayed(const Duration(minutes: 5));
+      await Future.delayed(const Duration(seconds: 3));
       expect(find.text("Flutter Demo Home Page"), findsOneWidget);
       Finder button = find.byKey(const Key('incrementButton'));
-      await tester.tap(button);
-      await tester.tap(button);
+      for (var i = 0; i < 500; i++) {
+        await tester.tap(button);
+        await tester.pumpAndSettle();
+      }
       await tester.pumpAndSettle();
-      expect(find.text("2"), findsOneWidget);
+      expect(find.text("500"), findsOneWidget);
     });
   });
   group('end-to-end test2', () {
-    testWidgets('5 min test',
-        (tester) async {
+    testWidgets('long 500 tap test 2', (tester) async {
       await tester.pumpWidget(const MyApp());
       // Adding this sleep here to allow test to run on Test Labs a little longer
-      await Future.delayed(const Duration(minutes: 5));
+      await Future.delayed(const Duration(seconds: 3));
       expect(find.text("Flutter Demo Home Page"), findsOneWidget);
       Finder button = find.byKey(const Key('incrementButton'));
-      await tester.tap(button);
-      await tester.tap(button);
-      await tester.tap(button);
+      for (var i = 0; i < 500; i++) {
+        await tester.tap(button);
+        await tester.pumpAndSettle();
+      }
       await tester.pumpAndSettle();
-      expect(find.text('3'), findsOneWidget);
+      expect(find.text("500"), findsOneWidget);
     });
   });
-   group('end-to-end test1', () {
-    testWidgets('5 min test', (tester) async {
+  group('end-to-end test3', () {
+    testWidgets('long 500 tap test 3', (tester) async {
       await tester.pumpWidget(const MyApp());
       // Adding this sleep here to allow test to run on Test Labs a little longer
-      await Future.delayed(const Duration(minutes: 5));
+      await Future.delayed(const Duration(seconds: 3));
       expect(find.text("Flutter Demo Home Page"), findsOneWidget);
       Finder button = find.byKey(const Key('incrementButton'));
-      await tester.tap(button);
-      await tester.tap(button);
+      for (var i = 0; i < 500; i++) {
+        await tester.tap(button);
+        await tester.pumpAndSettle();
+      }
       await tester.pumpAndSettle();
-      expect(find.text("2"), findsOneWidget);
+      expect(find.text("500"), findsOneWidget);
     });
   });
-  group('end-to-end test2', () {
-    testWidgets('5 min test',
-        (tester) async {
+  group('end-to-end test4', () {
+    testWidgets('long 500 tap test 4', (tester) async {
       await tester.pumpWidget(const MyApp());
       // Adding this sleep here to allow test to run on Test Labs a little longer
-      await Future.delayed(const Duration(minutes: 5));
+      await Future.delayed(const Duration(seconds: 3));
       expect(find.text("Flutter Demo Home Page"), findsOneWidget);
       Finder button = find.byKey(const Key('incrementButton'));
-      await tester.tap(button);
-      await tester.tap(button);
-      await tester.tap(button);
+      for (var i = 0; i < 500; i++) {
+        await tester.tap(button);
+        await tester.pumpAndSettle();
+      }
       await tester.pumpAndSettle();
-      expect(find.text('3'), findsOneWidget);
+      expect(find.text("500"), findsOneWidget);
     });
   });
 }
