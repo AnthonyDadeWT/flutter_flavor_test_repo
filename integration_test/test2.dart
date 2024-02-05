@@ -12,7 +12,7 @@ void main() {
       // Adding this sleep here to allow test to run on Test Labs a little longer
       expect(find.text("Flutter Demo Home Page"), findsOneWidget);
       Finder button = find.byKey(const Key('incrementButton'));
-      for (var i = 0; i < 10; i++) {
+      for (var i = 0; i < 500; i++) {
         await tester.tap(button);
         await tester.pumpAndSettle();
       }
