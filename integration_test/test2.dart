@@ -7,7 +7,7 @@ void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
   group('test 2', () {
-    testWidgets('test file 2', (tester) async {
+    testWidgets('test file 2 test 1', (tester) async {
       await tester.pumpWidget(const MyApp());
       // Adding this sleep here to allow test to run on Test Labs a little longer
       expect(find.text("Flutter Demo Home Page"), findsOneWidget);
@@ -17,7 +17,43 @@ void main() {
         await tester.pumpAndSettle();
       }
       await tester.pumpAndSettle();
-      expect(find.text("10"), findsOneWidget);
+      expect(find.text("500"), findsOneWidget);
+    });
+    testWidgets('test file test 2', (tester) async {
+      await tester.pumpWidget(const MyApp());
+      // Adding this sleep here to allow test to run on Test Labs a little longer
+      expect(find.text("Flutter Demo Home Page"), findsOneWidget);
+      Finder button = find.byKey(const Key('incrementButton'));
+      for (var i = 0; i < 500; i++) {
+        await tester.tap(button);
+        await tester.pumpAndSettle();
+      }
+      await tester.pumpAndSettle();
+      expect(find.text("500"), findsOneWidget);
+    });
+    testWidgets('test file test 3', (tester) async {
+      await tester.pumpWidget(const MyApp());
+      // Adding this sleep here to allow test to run on Test Labs a little longer
+      expect(find.text("Flutter Demo Home Page"), findsOneWidget);
+      Finder button = find.byKey(const Key('incrementButton'));
+      for (var i = 0; i < 500; i++) {
+        await tester.tap(button);
+        await tester.pumpAndSettle();
+      }
+      await tester.pumpAndSettle();
+      expect(find.text("500"), findsOneWidget);
+    });
+    testWidgets('test file test 4', (tester) async {
+      await tester.pumpWidget(const MyApp());
+      // Adding this sleep here to allow test to run on Test Labs a little longer
+      expect(find.text("Flutter Demo Home Page"), findsOneWidget);
+      Finder button = find.byKey(const Key('incrementButton'));
+      for (var i = 0; i < 500; i++) {
+        await tester.tap(button);
+        await tester.pumpAndSettle();
+      }
+      await tester.pumpAndSettle();
+      expect(find.text("500"), findsOneWidget);
     });
   });
 }
