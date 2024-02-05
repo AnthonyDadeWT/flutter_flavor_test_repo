@@ -12,12 +12,72 @@ void main() {
       // Adding this sleep here to allow test to run on Test Labs a little longer
       expect(find.text("Flutter Demo Home Page"), findsOneWidget);
       Finder button = find.byKey(const Key('incrementButton'));
-      for (var i = 0; i < 500; i++) {
+      for (var i = 0; i < 25; i++) {
         await tester.tap(button);
         await tester.pumpAndSettle();
       }
       await tester.pumpAndSettle();
-      expect(find.text("500"), findsOneWidget);
+      expect(find.text("25"), findsOneWidget);
+    });
+    testWidgets('test file 2 test 2', (tester) async {
+      await tester.pumpWidget(const MyApp());
+      // Adding this sleep here to allow test to run on Test Labs a little longer
+      expect(find.text("Flutter Demo Home Page"), findsOneWidget);
+      Finder button = find.byKey(const Key('incrementButton'));
+      for (var i = 0; i < 25; i++) {
+        await tester.tap(button);
+        await tester.pumpAndSettle();
+      }
+      await tester.pumpAndSettle();
+      expect(find.text("25"), findsOneWidget);
+    });
+    testWidgets('test file 2 test 3', (tester) async {
+      await tester.pumpWidget(const MyApp());
+      // Adding this sleep here to allow test to run on Test Labs a little longer
+      expect(find.text("Flutter Demo Home Page"), findsOneWidget);
+      Finder button = find.byKey(const Key('incrementButton'));
+      for (var i = 0; i < 25; i++) {
+        await tester.tap(button);
+        await tester.pumpAndSettle();
+      }
+      await tester.pumpAndSettle();
+      expect(find.text("25"), findsOneWidget);
+    });
+    testWidgets('test file 2 test 4', (tester) async {
+      await tester.pumpWidget(const MyApp());
+      // Adding this sleep here to allow test to run on Test Labs a little longer
+      expect(find.text("Flutter Demo Home Page"), findsOneWidget);
+      Finder button = find.byKey(const Key('incrementButton'));
+      for (var i = 0; i < 25; i++) {
+        await tester.tap(button);
+        await tester.pumpAndSettle();
+      }
+      await tester.pumpAndSettle();
+      expect(find.text("25"), findsOneWidget);
+    });
+    testWidgets('test file 2 test 5', (tester) async {
+      await tester.pumpWidget(const MyApp());
+      // Adding this sleep here to allow test to run on Test Labs a little longer
+      expect(find.text("Flutter Demo Home Page"), findsOneWidget);
+      Finder button = find.byKey(const Key('incrementButton'));
+      for (var i = 0; i < 25; i++) {
+        await tester.tap(button);
+        await tester.pumpAndSettle();
+      }
+      await tester.pumpAndSettle();
+      expect(find.text("25"), findsOneWidget);
+    });
+    testWidgets('test file 2 test 6', (tester) async {
+      await tester.pumpWidget(const MyApp());
+      // Adding this sleep here to allow test to run on Test Labs a little longer
+      expect(find.text("Flutter Demo Home Page"), findsOneWidget);
+      Finder button = find.byKey(const Key('incrementButton'));
+      for (var i = 0; i < 25; i++) {
+        await tester.tap(button);
+        await tester.pumpAndSettle();
+      }
+      await tester.pumpAndSettle();
+      expect(find.text("25"), findsOneWidget);
     });
   });
 }
