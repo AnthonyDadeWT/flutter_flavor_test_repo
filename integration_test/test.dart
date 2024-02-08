@@ -20,43 +20,4 @@ void main() {
       expect(find.text("500"), findsOneWidget);
     });
   });
-  group('end-to-end test2', () {
-    testWidgets('long 500 tap test 2', (tester) async {
-      await tester.pumpWidget(const MyApp());
-      expect(find.text("Flutter Demo Home Page"), findsOneWidget);
-      Finder button = find.byKey(const Key('incrementButton'));
-      for (var i = 0; i < 500; i++) {
-        await tester.tap(button);
-        await tester.pumpAndSettle();
-      }
-      await tester.pumpAndSettle();
-      expect(find.text("500"), findsOneWidget);
-    });
-  });
-  group('end-to-end test3', () {
-    testWidgets('long 500 tap test 3', (tester) async {
-      await tester.pumpWidget(const MyApp());
-      expect(find.text("Flutter Demo Home Page"), findsOneWidget);
-      Finder button = find.byKey(const Key('incrementButton'));
-      for (var i = 0; i < 500; i++) {
-        await tester.tap(button);
-        await tester.pumpAndSettle();
-      }
-      await tester.pumpAndSettle();
-      expect(find.text("500"), findsOneWidget);
-    });
-  });
-  group('end-to-end test4', () {
-    testWidgets('long 500 tap test 4', (tester) async {
-      await tester.pumpWidget(const MyApp());
-      expect(find.text("Flutter Demo Home Page"), findsOneWidget);
-      Finder button = find.byKey(const Key('incrementButton'));
-      for (var i = 0; i < 500; i++) {
-        await tester.tap(button);
-        await tester.pumpAndSettle();
-      }
-      await tester.pumpAndSettle();
-      expect(find.text("500"), findsOneWidget);
-    });
-  });
 }
