@@ -1,6 +1,6 @@
 # test_app
 
-Flutter project for testing purposes
+Flutter project for testing purposes and more
 
 ## Getting Started
 
