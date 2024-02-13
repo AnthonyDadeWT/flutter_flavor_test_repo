@@ -11,20 +11,16 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:test_app/main.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
+  testWidgets('long 500 tap test 1', (tester) async {
     await tester.pumpWidget(const MyApp());
-
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
-
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
-
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+    // Adding this sleep here to allow test to run on Test Labs a little longer
+    expect(find.text("Flutter Demo Home Page"), findsOneWidget);
+    Finder button = find.byKey(const Key('incrementButton'));
+    for (var i = 0; i < 500; i++) {
+      await tester.tap(button);
+      await tester.pumpAndSettle();
+    }
+    await tester.pumpAndSettle();
+    expect(find.text("500"), findsOneWidget);
   });
 }
