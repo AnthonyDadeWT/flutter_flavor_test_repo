@@ -67,17 +67,5 @@ void main() {
       await tester.pumpAndSettle();
       expect(find.text("25"), findsOneWidget);
     });
-    testWidgets('test file 2 test 6', (tester) async {
-      await tester.pumpWidget(const MyApp());
-      // Adding this sleep here to allow test to run on Test Labs a little longer
-      expect(find.text("Flutter Demo Home Page"), findsOneWidget);
-      Finder button = find.byKey(const Key('incrementButton'));
-      for (var i = 0; i < 25; i++) {
-        await tester.tap(button);
-        await tester.pumpAndSettle();
-      }
-      await tester.pumpAndSettle();
-      expect(find.text("25"), findsOneWidget);
-    });
   });
 }
